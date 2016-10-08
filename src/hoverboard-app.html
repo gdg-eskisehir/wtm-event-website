@@ -21,7 +21,6 @@
 <link rel="import" href="elements/drawer-block.html">
 <link rel="import" href="elements/toolbar-block.html">
 <link rel="import" href="elements/header-content.html">
-<link rel="import" href="elements/video-dialog.html">
 <link rel="import" href="elements/toast-element.html">
 
 <link rel="import" href="pages/home-page.html">
@@ -113,7 +112,7 @@
       speakers="{{speakers}}"
       sessions="{{sessions}}"
       schedule="{{schedule}}"
-      posts="{{posts}}"
+
     ></app-data>
 
     <app-drawer-layout drawer-width="599px" force-narrow>
@@ -155,13 +154,8 @@
           <home-page name="home"
                      app="{{app}}"
                      people="{{speakers}}"
-                     posts="{{posts}}"
-                     videos="{{videos}}"></home-page>
 
-          <blog-page name="blog"
-                     app="{{app}}"
-                     route="{{subRoute}}"
-                     posts="{{posts}}"></blog-page>
+                  ></home-page>
 
           <speakers-page name="speakers"
                          app="{{app}}"
@@ -174,23 +168,15 @@
                          schedule="{{schedule}}"
                          sessions="{{sessions}}"></schedule-page>
 
-          <team-page name="team"
-                     app="{{app}}"></team-page>
-
           <cod-page name="cod"
                     app="{{app}}"></cod-page>
+
 
         </neon-animated-pages>
       </div>
 
     </app-drawer-layout>
 
-    <video-dialog id="videoDialog"
-                  video-title="[[video.title]]"
-                  youtube-id="[[video.youtubeId]]"
-                  entry-animation="scale-up-animation"
-                  exit-animation="scale-down-animation"
-                  disable-controls="[[!video.disableControls]]"></video-dialog>
 
     <toast-element id="toast"></toast-element>
 
@@ -219,7 +205,7 @@
             notify: true,
             value: function () {
               return {
-                lang: 'en'
+                lang: 'tr'
               };
             }
           },
