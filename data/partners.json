@@ -1,5 +1,63 @@
 [
   {
+    "title": "general-partner",
+    "logos": [
+      {
+        "name": "Google",
+        "url": "https://www.google.com.ua/intl/en/about/",
+        "logoUrl": "../images/logos/google.svg"
+      }
+    ]
+  },
+  {
+    "title": "silver-sponsor",
+    "logos": [
+      {
+        "name": "Innovera",
+        "url": "http://www.innoverabt.com/",
+        "logoUrl": "../images/logos/innovera.png"
+      }
+    ]
+  },
+  {
+    "title": "event-organizer",
+    "logos": [
+      {
+        "name": "Bilgisayar Kulübü",
+        "url": "https://www.facebook.com/AnadoluBK/?ref=br_rs",
+        "logoUrl": "../images/logos/bklogo.png",
+        "width": 170,
+        "height": 120
+      },
+      {
+        "name": "GDG Eskişehir",
+        "url": "http://www.gdgeskisehir.com/#!/about",
+        "logoUrl": "../images/logos/gdg-eskisehir.png",
+        "width": 200,
+        "height": 120
+      }
+    ]
+  },
+  {
+    "title": "media-sponsor",
+    "logos": [
+      {
+        "name": "Tamindir",
+        "url": "http://www.tamindir.com/",
+        "logoUrl": "../images/logos/tamindir-logo.png",
+        "width": 170,
+        "height": 120
+      },
+      {
+        "name": "Webtekno",
+        "url": "http://www.webtekno.com/",
+        "logoUrl": "../images/logos/webtekno.png",
+        "width": 170,
+        "height": 120
+      }
+    ]
+  },
+  {
     "title": "template-creator",
     "logos": [
       {
@@ -9,65 +67,6 @@
         "width": 170
       }
     ]
-  },
-  {
-    "title": "general-partner",
-    "logos": [
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
-      {
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/logos/gdg-x.svg"
-      },
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      }
-    ]
   }
 ]
+

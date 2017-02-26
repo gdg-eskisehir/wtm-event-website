@@ -1,53 +1,23 @@
-# 1. Purpose
+Topluluk Davranış Kuralları
 
+Bütün üyeler aşağıdaki davranış ilkelerine uymakla yükümlüdürler. Topluluğun tüm üyelerinin her bir etkinlikte bu davranış ilkelerini organizatörler yardımıyla uygulamaları beklenmektedir Herkese güvenli bir ortam sağlamak amacıyla topluluktaki bütün katılımcılardan iş birliği beklemekteyiz.
 
-A primary goal of [GDG Lviv](http://lviv.gdg.org.ua/) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
-GDG Lviv prides itself on being an open, respectful, and inclusive community. That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
+Yardıma İhtiyacınız Mı Var?
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
-We invite all those who participate in Google Developers Group to help us create safe and positive experiences for everyone.
+Organizatörlerin iletişim bilgileri internet sitemizde ve size gönderdiğimiz her bir mailde mevcuttur.
 
-# 2. Open [Source/Culture/Tech] Citizenship
+Rahatsızlık tanımı cinsiyet, cinsel kimlik, yaş, cinsel yönelim, engellilik hali, fiziksel görünüm, vücut ölçüleri, ırk, din, teknolojik tercihler gibi konularda saldırgan söylemlerde bulunmayı; umumi alanlarda cinsel görüntüler sergilemeyi; kasti imalarda bulunmayı, takipçi tacizi, rahatsızlık verici veya izinsiz şekilde fotoğraf çekmeyi veya kayıt yapmayı, tekrarlanan biçimde sunumları ve başka organizasyonları izinsiz bölmeyi, uygunsuz fiziksel teması ve istenmeyen cinsel ilgi göstermeyi içerir.
 
-A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. Communities mirror the societies in which they exist, and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society. If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+Katılımcılardan sergiledikleri rahatsız edici tavırları yapmamaları istendiğinde derhal söylenene uymaları beklenmektedir.
 
-# 3. Expected Behavior
+Sponsorlar da katılımcılar gibi rahatsızlık karşıtı önlemlere tabidirler. Sponsorlar özellikle cinsellik içeren görseller, aktiviteler ve başka materyaller kullanmamalıdırlar. Etkinliğin ev sahipleri ve katılımcılar (sponsorlar, görevliler ve gönüllüler de dahil) cinselliği vurgulayan kıyafetler, üniformalar ve kostümler giymemelidirler veya başka bir şekilde cinselleştirilmiş bir ortam yaratmamalıdırlar.
 
-The following behaviors are expected and requested of all community members:
+Eğer bir katılımcı rahatsızlık veren davranışlar içinde bulunursa, organizatörler kendilerince uygun gördükleri herhangi kararı uygulayabilirler. Bu kararlara uyarı vermek veya (eğer ücretli bir etkinlikse para iadesi olmadan) etkinlikten uzaklaştırmak da dahildir.
 
-- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-- Exercise consideration and respect in your speech and actions.
-- Attempt collaboration before a conflict.
-- Refrain from demeaning, discriminatory, or harassing behavior and speech.
-- Be mindful of your surroundings and your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+Eğer size bir rahatsızlık verilirse, başka birisine rahatsızlık verildiğine şahit olursanız veya herhangi bir endişeniz varsa lütfen en kısa zamanda bir organizatöre ulaşın. Bütün organizatörlerimizin iletişim bilgileri internet sitemizde mevcuttur.
 
-# 4. Unacceptable Behavior
+Organizatörler bu tip durumlarda katılımcıların mekandaki güvenlik görevlilerine veya yerel güvenlik güçlerine haber vermelerine yardım etmekten, refakat etmekten ve rahatsızlığa uğrayan kişilerin etkinlik boyunca kendilerini güvenli hissetmelerine yardımcı olmaktan mutluluk duyacaklardır. Topluluğumuza  katılımınız ve katkılarınız bizim için önemlidir
+Mesleki, sosyal veya her ikisini de içeren tüm topluluk etkinliklerinde katılımcıların bu kurallara uymalarını bekliyoruz.
 
-The following actions are considered harassment and are unacceptable within our community:
-
-- Violence, threats of violence or violent language directed against another person.
-- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-- Posting or displaying sexually explicit or violent material.
-- Posting or threatening to post other people’s personally identifying information ("doxing").
-- Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-- Inappropriate photography or recording.
-- Inappropriate physical contact. You should have someone’s consent before touching them.
-- Unwelcome sexual attention. This includes sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-- Deliberate intimidation, stalking or following (online or in person).
-- Advocating for, or encouraging, any of the above behavior.
-- Sustained disruption of community events, including talks and, presentations.
-
-#  5. Consequences of Unacceptable Behavior
-
-Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
-If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event.
-
-# 6. Scope
-
-We expect all community participants to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications about community business. This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to affect the safety and well-being of community members adversely.
-
-# 7. Contact info
-
-- Oleh Zasadnyy, +38 093 486 64 60, [oleh.zasadnyy@gdg.org.ua](mailto:oleh.zasadnyy@gdg.org.ua)
-- Sofiya Huts, +38 093 486 14 25, [sofia.huts@gmail.com](mailto:sofia.huts@gmail.com)
+- Alparslan Çelik, +90 506 485 61 05, [Alpcelik3@gmail.com](mailto:Alpcelik3@gmail.com)
+- Gizem Fitoz, +90 535 022 68 54​⁠​, [fitozgizem@gmail.com](mailto:fitozgizem@gmail.com)

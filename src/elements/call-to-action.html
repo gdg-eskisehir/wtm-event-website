@@ -23,7 +23,7 @@
       }
 
       .heading {
-        @apply(--layout-flex-auto);
+        @apply(--layout-flex);
         @apply(--layout-self-center);
         margin-bottom: 0 !important;
       }
@@ -44,12 +44,11 @@
         }
       }
     </style>
-
-    <div class="container container-narrow">
-      <h4 class="heading">[[localize(app.data.callToAction.videoTitle)]]</h4>
-      <paper-button class="open-dialog-button" on-tap="playVideo">[[localize('action')]]</paper-button>
-    </div>
-
+    <!--<div class="container container-narrow">
+          <h4 class="heading">[[localize(app.data.callToAction.videoTitle)]]</h4>
+          <paper-button class="open-dialog-button" on-tap="playVideo">[[localize('action')]]</paper-button>
+        </div>
+    -->
   </template>
 
   <script>
