@@ -71,8 +71,9 @@
       }
 
       .logo {
-        width: 240px;
-        min-height: 80px;
+        width: 500px;
+        min-height: 120px;
+        margin-left: -20px;
       }
 
       .dates {
@@ -95,17 +96,8 @@
         color: #fff;
       }
 
-      .open-video {
-        @apply(--layout-horizontal);
-        @apply(--layout-center);
-        margin-top: 20px;
-        cursor: pointer;
-        font-size: 16px;
-      }
 
-      .open-video iron-icon {
-        margin-right: 5px;
-      }
+
 
       @media (min-width: 601px) {
         .container {
@@ -129,17 +121,10 @@
         <animatable-content name="home">
           <div class="container" center-justified>
             <div class="home-wrapper">
-              <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
-                          alt="GDG DevFest Ukraine 2016"></iron-image>
+              <iron-image class="logo" src="/images/wtmeskisehir.png" sizing="contain"
+                          alt="Women TechMakers 2017"></iron-image>
               <h3 class="dates">{{localize('dates')}}</h3>
               <h2 class="motto">{{localize('motto')}}</h2>
-              <div class="open-video" on-tap="_openVideo">
-                <iron-icon icon="play"></iron-icon>
-                {{localize('play-icon')}}
-              </div>
-              <div class="action-buttons">
-                <paper-button class="primary" on-tap="_scrollToTickets" raised>{{localize('buy-ticket')}}</paper-button>
-              </div>
             </div>
           </div>
         </animatable-content>
@@ -197,12 +182,6 @@
             notify: true,
             value: 0
           }
-        },
-
-        _openVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo(this.app.data.pages.home.headerSettings.video.title,
-            this.app.data.pages.home.headerSettings.video.youtubeId, true);
-          HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
         },
 
         _scrollToTickets: function () {
