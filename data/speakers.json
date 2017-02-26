@@ -314,6 +314,61 @@
         "link": "https://www.linkedin.com/in/asli-koksal-50285454/"
       }
     ]
+  },
+    "14":  {
+    "id": 14,
+    "featured": "true",
+    "name": "Burcu Türkmen",
+    "title": "Senior Android Developer",
+    "company": "Akbank",
+    "companyLogo": "/images/logos/akbank.png",
+    "country": "İstanbul, Türkiye",
+    "photoUrl": "/images/people/burcu.png",
+    "shortBio": "Anadolu Üniversitesi Bilgisayar Mühendisliği bölümünden 2012 yılında mezun oldu. Severek ve isteyerek Android geliştirmeye başlayıp, heyecanını halen kaybetmeyenlerden. Bir ara merak saldığı iOS’i ve gönülden sevdiği Apple’ı da unutmamak lazım. Hastane otomasyonu, çiftlik yönetimi ve bankacılık gibi çok farklı 3 sektörde çalışmış. GDG ve WTM topluluklarının da oldukça içinden. ",
+    "bio": "Anadolu Üniversitesi Bilgisayar Mühendisliği bölümünden 2012 yılında mezun oldu. Severek ve isteyerek Android geliştirmeye başlayıp, heyecanını halen kaybetmeyenlerden. Bir ara merak saldığı iOS’i ve gönülden sevdiği Apple’ı da unutmamak lazım. Hastane otomasyonu, çiftlik yönetimi ve bankacılık gibi çok farklı 3 sektörde çalışmış. GDG ve WTM topluluklarının da oldukça içinden. ",
+    "tags": [
+      "Android",
+      "Java"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developers Group Eskişehir",
+        "link": "https://developers.google.com/groups/chapter/115602346615910585045/"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/btrkmn/"
+      }
+    ]
+  },
+    "15":  {
+    "id": 15,
+    "featured": "true",
+    "name": "Tuğba Turkaya",
+    "title": "Bilgisayar Mühendisi",
+    "company": "Innovera Bilişim Teknolojileri",
+    "companyLogo": "/images/logos/innovera.png",
+    "country": "İstanbul, Türkiye",
+    "photoUrl": "/images/people/tugba.webp",
+    "shortBio": "Ankara Üniversitesi Bilgisayar mühendisliği 2013 yılı mezunuyum. Son sınıfta okumaktan çok sıkıldığım için, yüksek lisans yapmayı hiç düşünmedim, düşünmüyorum. İş kariyerimi JAVA programlama dili üzerine kurup, sıklıkla bu alandaki projelerde, farklı teknolojilerle çalıştım. İki yıldan uzun bir süredir Innovera Bilişim Teknolojileri şirketinde muhteşem bir ekip içerisinde tek kız geliştirici olarak çalışmaktayım.",
+    "bio": "Ankara Üniversitesi Bilgisayar mühendisliği 2013 yılı mezunuyum. Son sınıfta okumaktan çok sıkıldığım için, yüksek lisans yapmayı hiç düşünmedim, düşünmüyorum. İş kariyerimi JAVA programlama dili üzerine kurup, sıklıkla bu alandaki projelerde, farklı teknolojilerle çalıştım. İki yıldan uzun bir süredir Innovera Bilişim Teknolojileri şirketinde muhteşem bir ekip içerisinde tek kız geliştirici olarak çalışmaktayım.",
+    "tags": [
+      "Security",
+      "Java"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://tr.linkedin.com/in/tuğba-turkaya-b6221771"
+      }
+    ]
   }
 
 
