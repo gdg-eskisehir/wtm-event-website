@@ -10,6 +10,16 @@
     ]
   },
   {
+    "title": "silver-sponsor",
+    "logos": [
+      {
+        "name": "Innovera",
+        "url": "http://www.innoverabt.com/",
+        "logoUrl": "../images/logos/innovera.png"
+      }
+    ]
+  },
+  {
     "title": "event-organizer",
     "logos": [
       {
@@ -24,6 +34,25 @@
         "url": "http://www.gdgeskisehir.com/#!/about",
         "logoUrl": "../images/logos/gdg-eskisehir.png",
         "width": 200,
+        "height": 120
+      }
+    ]
+  },
+  {
+    "title": "media-sponsor",
+    "logos": [
+      {
+        "name": "Tamindir",
+        "url": "http://www.tamindir.com/",
+        "logoUrl": "../images/logos/tamindir-logo.png",
+        "width": 170,
+        "height": 120
+      },
+      {
+        "name": "Webtekno",
+        "url": "http://www.webtekno.com/",
+        "logoUrl": "../images/logos/webtekno.png",
+        "width": 170,
         "height": 120
       }
     ]
