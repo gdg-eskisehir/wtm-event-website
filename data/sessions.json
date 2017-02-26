@@ -1,3 +1,224 @@
 {
-
+  "127": {
+    "id": 114,
+    "title": "Native vs Hybrid",
+    "description": "Mobil yazılım geliştirmeye farklı bir pencereden bakmaya ne dersiniz? Hybrid ve Native dillerin artılarını ve eksilerini tartışacağımız interaktif bir oturum olacaktır.",
+    "speakers": [
+      14
+    ],
+    "language": "Türkçe",
+    "complexity": "Orta Düzey",
+    "tags": [
+      "Teknik",
+      "Mobil"
+    ]
+  },
+  "117": {
+    "id": 113,
+    "title": "Bankacılığın Dijital Dönüşümünde \"Müşteri\" Nerede?",
+    "description": "Günümüzde dijitalleşme her sektörde olduğu gibi bankacılık sektörünü de etkisine almış durumda. Bankaların dijital dönüşümünde müşteri nerede konumlanır, müşteriye sunulacak deneyim, tasarım odaklı düşünme kavramıyla nasıl tasarlanır konuşacağız.",
+    "speakers": [
+      12
+    ],
+    "language": "Türkçe",
+    "complexity": "Orta Düzey",
+    "tags": [
+      "Teknik",
+      "İş geliştirme"
+    ]
+  },
+  "126": {
+    "id": 126,
+    "title": "Step by Step #Noestimation",
+    "description": "Proje yönetimi için yapılan tahminleme çalışmaları finansal ve satış değerlerini çıkarmak için kullanılır, ancak yazılım sistemleri karmaşık ve değişkenlik gösteren sistemlerdir. Bu nedenle tahminleme yapmak, bütçe ve satış oranlarını çıkarmak için ilk başta içimizi rahatlatsa da projenin sonunda çoğunlukla yanlış sonuçlar ile karşılaşılmaktadır. Bu nedenle asıl yapılası gereken benzer geçmiş projelere veya döngülere bakarak takımın gelecekteki üretimlerini istatistiksel olarak tahminleyebilmektir.",
+    "speakers": [
+      4
+    ],
+    "language": "Türkçe",
+    "complexity": "Giriş Düzeyi",
+    "tags": [
+      "Teknik"
+    ]
+  },
+  "116": {
+    "id": 116,
+    "title": "Nasıl Sızma Testi Uzmanı oldum?",
+    "description": "\"Nasıl sızma testi uzmanı olabilirim?\" diye merak eden kişilerin neler öğrenmesi ve kendisinden neler katması gerektiğini, bu alana girdiğimde yaşadığım kişisel tecrübelerden hazırladığım bir sunumla ifade etmeye çalışacağım. Kariyerimde, o sıralar daha çok erkek egemen bu alanda ilerlemeye nasıl karar verdiğimi ve bu alana girdiğimde geçmişimdeki deneyimlerimin bana neler kattığını fotoğraflarla anlatacağım.",
+    "speakers": [
+      13
+    ],
+    "language": "Türkçe",
+    "complexity": "Giriş Düzeyi",
+    "tags": [
+      "Kariyer",
+      "Teknik",
+      "Güvenlik"
+    ]
+  },
+  "125": {
+    "id": 125,
+    "title": "Building Data Driven Applications with Machine Learning",
+    "description": "Building Data Driven Applications with Machine Learning",
+    "speakers": [
+      9
+    ],
+    "language": "Türkçe",
+    "complexity": "İleri Düzey",
+    "tags": [
+      "Teknik",
+      "Machine Learning"
+    ]
+  },
+  "115": {
+    "id": 115,
+    "title": "Wi-Fi ve Biz",
+    "description": "Günlük hayatımızın vazgeçilmez teknolojisi Wi-Fi nasıl çalışır; kablosuz iletişim sağlayan başka teknolojilere göre avantajları nelerdir; limitasyonları nelerdir; limitasyonlar için geliştirilmiş çözümler nelerdir sorularına odaklanarak pratikten örnekler üzerinden Wi-Fi teknolojisi anlatılacaktır.",
+    "speakers": [
+      11
+    ],
+    "language": "Türkçe",
+    "complexity": "İleri Düzey",
+    "tags": [
+      "Teknik",
+      "Network"
+    ]
+  },
+  "114": {
+    "id": 114,
+    "title": "Üniversite'den Sonra...",
+    "description": "Üniversite sırasında her yıl ne olacağı, her dönem ne ders görüleceği hemen hemen önceden bellidir. Peki ya sonrası? Hayallerim, koyduğum hedefler? Bunlara ulaşabilecek miyim? Ya  Toefl'ı geçemezsem? Ya burs alamazsam? Amerika'ya gitmek mi? Maddi durumumuz belli, onu unut... Ya da mucizelere, herşeyden önce kendine inanmaya hazır ol. Engellerin birer birer kalktığını göreceksin.",
+    "speakers": [
+      1
+    ],
+    "language": "Türkçe",
+    "complexity": "Giriş Düzeyi",
+    "tags": [
+      "Kariyer"
+    ]
+  },
+  "123": {
+    "id": 123,
+    "title": "İş Hayatında Yazılım Geliştirmek",
+    "description": "Okulda anlatılan teknolojiler iş hayatında  yeterli olmuyor.Öğretilenlerin yanında başka teknolojilerle birlikte back-end ve front-end frameworklerine de ihtiyaç duyuluyor. Kullandığımız frameworkler, bir proje geliştirilirken daha önce çözülmüş problemleri tekrar tekrar çözmeye çabalamak yerine kendi problemimize odaklanmamızı sağlıyor. Bu bağlamda oturumun birinci bölümünde iş görüşmelerinde karşınıza çıkması muhtemel, bizimde projelerimizde kullandığımız Spring, Spring-Boot, Bootstrap  gibi frameworklerden, jQuery kütüphanesinden bahsedip, kalan zamanda şirketimizdeki proje geliştirme süreçlerinden, iş paylaşımını nasıl yaptığımızdan, birçok kişi aynı proje üzerinde nasıl geliştirme yaptığımızdan bahsediyor olacağız.",
+    "speakers": [
+      15
+    ],
+    "language": "Türkçe",
+    "complexity": "Orta Düzey",
+    "tags": [
+      "Teknik",
+      "Web"
+    ]
+  },
+  "113": {
+    "id": 113,
+    "title": "Koş yavrum koş, hayalinin peşinden koş!",
+    "description": "Kurumsal dünyadan çıkıp kaliteli hizmet veren bulma problemini ben niye çözmeyeyim diyen bir kadın girişimcinin maceraları.",
+    "speakers": [
+      7
+    ],
+    "language": "Türkçe",
+    "complexity": "Giriş Düzeyi",
+    "tags": [
+      "Kariyer"
+    ]
+  },
+  "122": {
+    "id": 122,
+    "title": "Ruby ve Ruby on Rails ile tanışma",
+    "description": "Ruby programlama dili ile ilgili genel bilgi ve Ruby on Rails ile tanışma.",
+    "speakers": [
+      10
+    ],
+    "language": "Türkçe",
+    "complexity": "Giriş Düzeyi",
+    "tags": [
+      "Teknik"
+    ]
+  },
+  "112": {
+    "id": 112,
+    "title": "Bilişimde Kadının Adı",
+    "description": "Sunumda, bilişim dünyasının kadın çalışan ihtiyacı ve bu alanda kariyer yapmak isteyen yeni mezun arkadaşların çalışabileceği farklı sektörler anlatılacaktır.",
+    "speakers": [
+      8
+    ],
+    "language": "Türkçe",
+    "complexity": "Giriş Düzeyi",
+    "tags": [
+      "Kariyer"
+    ]
+  },
+  "121": {
+    "id": 121,
+    "title": "Scrum ve diğerleri",
+    "description": "Scrum metolojisi ve scrumda ekip içi roller",
+    "speakers": [
+      5
+    ],
+    "language": "Türkçe",
+    "complexity": "Giriş Düzeyi",
+    "tags": [
+      "Teknik",
+      "İş geliştirme"
+    ]
+  },
+  "111": {
+    "id": 111,
+    "title": "Actions on Google - Build for Google Assistant",
+    "description": "Sunumda, Google Asistan için uygulama geliştirmemizi sağlayan Actions on Google, şu an için kullanıcılarımızı asistanla tanıştırmamıza olanak sağlayan tek araç olarak Google Home aracılığıyla anlatılacaktır.",
+    "speakers": [
+      2
+    ],
+    "language": "Türkçe",
+    "complexity": "İleri Düzey",
+    "tags": [
+      "Teknik"
+    ]
+  },
+  "101": {
+    "id": 101,
+    "description": "",
+    "title": "Kahvaltı"
+  },
+  "102": {
+    "id": 102,
+    "description": "",
+    "title": "Açılış Konuşması"
+  },
+  "103": {
+    "id": 103,
+    "description": "",
+    "title": "Ara"
+  },
+  "104": {
+    "id": 104,
+    "description": "",
+    "title": "Ara"
+  },
+  "105": {
+    "id": 105,
+    "description": "",
+    "title": "Ara"
+  },
+  "106": {
+    "id": 106,
+    "description": "",
+    "title": "Öğle Arası"
+  },
+  "107": {
+    "id": 107,
+    "description": "",
+    "title": "Ara"
+  },
+  "108": {
+    "id": 108,
+    "description": "",
+    "title": "Ara"
+  },
+  "109": {
+    "id": 109,
+    "description": "",
+    "title": "Kapanış Seramonisi"
+  }
 }

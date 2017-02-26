@@ -9,7 +9,7 @@
   "pages": {
     "home": {
       "headerSettings": {
-        "backgroundColor": "#5f83bd",
+        "backgroundColor": "#3f51b5",
         "backgroundImage": "/images/backgrounds/back.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
@@ -23,14 +23,21 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff"
         }
-     },
-      "cod": {
-        "headerSettings": {
-          "backgroundColor": "#673ab7",
-          "fontColor": "#fff",
-          "tabBarColor": "#fff"
-        }
+    },
+    "cod": {
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
       }
+    },
+    "schedule": {
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    }
   },
   "navigation": [
     {
@@ -40,7 +47,11 @@
     {
       "route": "speakers",
       "permalink": "/speakers/"
-      }
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/"
+    }
   ],
   "url": "wtmeskisehir.org/",
 
