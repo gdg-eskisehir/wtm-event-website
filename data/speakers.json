@@ -1,83 +1,80 @@
 {
-    "1": {
-        "id": 1,
-        "featured": true,
-        "name": "Hale Dönertaşlı",
-        "title": "Technical Program Manager",
-        "company": "Google",
-        "country": "Bodrum, Türkiye",
-      "companyLogo": "/images/logos/google.svg",
-        "shortBio": "1981 yılında İstanbul’da doğdum. İki üniversite ve üç master bitirdim. Şu anda doktorama devam etmekteyim. Geçtiğimiz on yılı Amerika’da ve son üç yılı da İrlanda’da geçirdim. Son yedi yıldır Google’da Network Mühendisi olarak çalışıyorum ve yaklaşık 46 projenin yönetiminden sorumluyum.",
-        "bio":"Bilim ve teknolojiye olan ilgim, orta öğretim yıllarında başladı. Kriptografi ve yapay zeka konularını yakından takip ettim. Teorilerimi uygulamaya dökmek için, üniversitede matematik ve bilgisayar bölümlerini bitirdim. Aynı anda hem İstanbul Teknik Üniversitesi’nde matematik mühendisliği hem de Bahçeşehir Üniversitesi’nde bilgisayar mühendisliği konularında master yapmaya başladım ve Amerika’dan kariyerime devam etmem için teklif geldi.Amerika’da burslu olarak teknoloji kalitesi masterımı bitirdim ve dünyada PHP Zend Certified Engineer sertifikasını alan ilk 100 mühendis arasına girdim. Kent State Üniversitesi başta olmak üzere, Amerika’daki birçok üniversitede bilgisayar algoritmaları dersi verdim. Network Mühendisliği’nde uzmanlaşmak için Cisco’nun en top sertifikası olan CCIE sınavını yüksek derece ile geçtim. Amerika’da Bilişim sektöründe tanınır duruma geldim ve Silikon Vadisi’nde Google’da çalışmaya başladım.",
-      "photoUrl": "/images/people/hale.jpg",
-        "tags": [
-            "Search",
-            "Network",
-            "Technical"
-        ],
-        "badges": [
-
-        ],
-        "socials": [
-          {
-            "icon": "linkedin",
-            "name": "LinkedIn",
-            "link": "https://www.linkedin.com/in/hale-donertasli-8a05213/"
-          }
-
-        ]
-    },
-    "2":  {
-      "id": 2,
-      "featured": "true",
-      "name": "Elif Boncuk",
-      "title": "Yetkili Yazılım Uzmanı",
-      "company": "Garanti Teknoloji",
-      "companyLogo": "/images/logos/garantiteknoloji.png",
-      "country": "İstanbul, Türkiye",
-      "photoUrl": "/images/people/elifboncuk.webp",
-      "shortBio": "Elif Boncuk 2011 yılında Hacettepe Üniversitesi Bilgisayar Mühendisliği bölümünden, 2016 yılında da Bahçeşehir Üniversitesi MBA programından mezun olmuştur.",
-      "bio": "Garanti Teknoloji'de Yetkili Yazılım Uzmanı olarak çalışmaktadır. Profesyonel iş yaşamının dışında Android'de Google Developers Expert programının bir parçası olarak, Google Developer Group ve Women Techmakers Istanbul'da da co-organizer olarak görev almaktadır.5 yıldan uzun bir zamandır Android(Eclair'den beri) başta olmak üzere mobil teknolojiler üzerine çalışan Elif Boncuk, şirketinde mobil ekibin kurulum aşamasında da yer almış olmakla beraber Garanti'nin popüler uygulamalarının çoğunun geliştirilmesinde görev almıştır.",
-      "tags": [
-        "Android",
-        "Java"
-      ],
-      "badges": [
-        {
-          "name": "GDG",
-          "description": "Google Developers Group İstanbul",
-          "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
-        },
-        {
-          "name": "GDE",
-          "description": "Google Developers Expert Android",
-          "link": "https://developers.google.com/experts/people/elif-boncuk"
-        }
-      ],
-      "socials": [
-        {
-          "icon": "linkedin",
-          "name": "LinkedIn",
-          "link": "https://tr.linkedin.com/in/elif-boncuk-mba-855a8728"
-        },
-        {
-          "icon": "twitter",
-          "name": "twitter",
-          "link": "https://twitter.com/elifbon_"
-        },
-        {
-          "icon": "gplus",
-          "name": "Google+",
-          "link": "https://plus.google.com/+ElifBoncuk"
-        },
-        {
-          "icon": "website",
-          "name": "Website",
-          "link": "https://elifboncuk.com/"
-        }
-      ]
-    },
-    "4":  {
+  "1": {
+    "id": 1,
+    "featured": true,
+    "name": "Hale Dönertaşlı",
+    "title": "Technical Program Manager",
+    "company": "Google",
+    "country": "Bodrum, Türkiye",
+    "companyLogo": "/images/logos/google.svg",
+    "shortBio": "1981 yılında İstanbul’da doğdum. İki üniversite ve üç master bitirdim. Şu anda doktorama devam etmekteyim. Geçtiğimiz on yılı Amerika’da ve son üç yılı da İrlanda’da geçirdim. Son yedi yıldır Google’da Network Mühendisi olarak çalışıyorum ve yaklaşık 46 projenin yönetiminden sorumluyum.",
+    "bio": "Bilim ve teknolojiye olan ilgim, orta öğretim yıllarında başladı. Kriptografi ve yapay zeka konularını yakından takip ettim. Teorilerimi uygulamaya dökmek için, üniversitede matematik ve bilgisayar bölümlerini bitirdim. Aynı anda hem İstanbul Teknik Üniversitesi’nde matematik mühendisliği hem de Bahçeşehir Üniversitesi’nde bilgisayar mühendisliği konularında master yapmaya başladım ve Amerika’dan kariyerime devam etmem için teklif geldi.Amerika’da burslu olarak teknoloji kalitesi masterımı bitirdim ve dünyada PHP Zend Certified Engineer sertifikasını alan ilk 100 mühendis arasına girdim. Kent State Üniversitesi başta olmak üzere, Amerika’daki birçok üniversitede bilgisayar algoritmaları dersi verdim. Network Mühendisliği’nde uzmanlaşmak için Cisco’nun en top sertifikası olan CCIE sınavını yüksek derece ile geçtim. Amerika’da Bilişim sektöründe tanınır duruma geldim ve Silikon Vadisi’nde Google’da çalışmaya başladım.",
+    "photoUrl": "/images/people/hale.jpg",
+    "tags": [
+      "Network",
+      "Teknik"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/hale-donertasli-8a05213/"
+      }
+    ]
+  },
+  "2": {
+    "id": 2,
+    "featured": "true",
+    "name": "Elif Boncuk",
+    "title": "Yetkili Yazılım Uzmanı",
+    "company": "Garanti Teknoloji",
+    "companyLogo": "/images/logos/garantiteknoloji.png",
+    "country": "İstanbul, Türkiye",
+    "photoUrl": "/images/people/elifboncuk.webp",
+    "shortBio": "Elif Boncuk 2011 yılında Hacettepe Üniversitesi Bilgisayar Mühendisliği bölümünden, 2016 yılında da Bahçeşehir Üniversitesi MBA programından mezun olmuştur.",
+    "bio": "Garanti Teknoloji'de Yetkili Yazılım Uzmanı olarak çalışmaktadır. Profesyonel iş yaşamının dışında Android'de Google Developers Expert programının bir parçası olarak, Google Developer Group ve Women Techmakers Istanbul'da da co-organizer olarak görev almaktadır.5 yıldan uzun bir zamandır Android(Eclair'den beri) başta olmak üzere mobil teknolojiler üzerine çalışan Elif Boncuk, şirketinde mobil ekibin kurulum aşamasında da yer almış olmakla beraber Garanti'nin popüler uygulamalarının çoğunun geliştirilmesinde görev almıştır.",
+    "tags": [
+      "Android",
+      "Java"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developers Group İstanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+      },
+      {
+        "name": "GDE",
+        "description": "Google Developers Expert Android",
+        "link": "https://developers.google.com/experts/people/elif-boncuk"
+      }
+    ],
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://tr.linkedin.com/in/elif-boncuk-mba-855a8728"
+      },
+      {
+        "icon": "twitter",
+        "name": "twitter",
+        "link": "https://twitter.com/elifbon_"
+      },
+      {
+        "icon": "gplus",
+        "name": "Google+",
+        "link": "https://plus.google.com/+ElifBoncuk"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "https://elifboncuk.com/"
+      }
+    ]
+  },
+  "4": {
     "id": 4,
     "featured": "true",
     "name": "Semen Cirit",
@@ -93,7 +90,6 @@
       "Scrum"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -113,7 +109,7 @@
       }
     ]
   },
-    "5":  {
+  "5": {
     "id": 5,
     "featured": "true",
     "name": "Gizem Orhan",
@@ -128,7 +124,6 @@
       "Scrum"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -138,7 +133,7 @@
       }
     ]
   },
-    "7":  {
+  "7": {
     "id": 7,
     "featured": "true",
     "name": "Başak Taşpınar Değim",
@@ -154,7 +149,6 @@
       "Java"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -164,10 +158,10 @@
       }
     ]
   },
-    "8":  {
+  "8": {
     "id": 8,
     "featured": "true",
-    "name": "Özge ÇEKİÇ KURUL",
+    "name": "Özge Çekiç Kurul",
     "title": "Yazılım Test Mühendisi",
     "company": "Savronik Elektronik Şirketi",
     "companyLogo": "/images/logos/savronik.jpg",
@@ -176,11 +170,9 @@
     "shortBio": "28.03.1988, Eskişehir doğumluyum. Lisans eğitimimi 2012 yılında Yıldız Teknik Üniversitesi, Bilgisayar Mühendisliği bölümünde tamamladım. Halen Anadolu Üniversitesi, Bilgisayar Mühendisliği’nde yüksek lisans eğitimime devam ediyorum.",
     "bio": "İş hayatıma analitik cihazlar sektöründe faaliyet gösteren Zivak Technologies şirketinde AR&GE Mühendisi olarak başladım. Devamında bankacılık sektöründe IT Mimarlığı ve makine sektöründe ERP/CRM odaklı Yazılım Mühendisliği alanlarında çalıştım. Bilişim dünyasındaki yedi yıllık mühendislik çalışmalarımda bir çok ulusal ve uluslararası projede görev aldım.Kariyerime son dört yıldan bu yana savunma sanayii sektöründe yazılım test ve kalite mühendisliği alanında çalışmalar yaparak devam ediyorum.Seyahat etmek, tiyatroya gitmek, yeni teknolojileri takip etmek hobilerim arasında. Evli ve bir kız çocuğu annesiyim.",
     "tags": [
-      "Test",
-      "Software"
+      "Test"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -190,7 +182,7 @@
       }
     ]
   },
-    "9":  {
+  "9": {
     "id": 9,
     "featured": "true",
     "name": "Kadriye Doğan",
@@ -202,11 +194,9 @@
     "shortBio": "2011 Çanakkale OnSekiz Mart Üniversitesi Bilgisayar Mühendisliği bölümünden mezun olmuştur.2015 yılı itibariyle Galatasaray Üniversitesi Bilgisayar Mühendisliği Yüksek Lisans programında öğrenimine devam etmektedir.Aynı zamanda iyzico bünyesinde Software Engineer olarak çalışmaktadır.",
     "bio": "2011 Çanakkale OnSekiz Mart Üniversitesi Bilgisayar Mühendisliği bölümünden mezun olmuştur.2015 yılı itibariyle Galatasaray Üniversitesi Bilgisayar Mühendisliği Yüksek Lisans programında öğrenimine devam etmektedir.Aynı zamanda iyzico bünyesinde Software Engineer olarak çalışmaktadır.",
     "tags": [
-      "Software",
       "Machine Learning"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -216,7 +206,7 @@
       }
     ]
   },
-    "10":  {
+  "10": {
     "id": 10,
     "featured": "true",
     "name": "Leyla Kapi",
@@ -231,7 +221,6 @@
       "Ruby"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -241,7 +230,7 @@
       }
     ]
   },
-    "11":  {
+  "11": {
     "id": 11,
     "featured": "true",
     "name": "Ece Gelal Soyak",
@@ -257,7 +246,6 @@
       "Network"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -267,7 +255,7 @@
       }
     ]
   },
-    "12":  {
+  "12": {
     "id": 12,
     "featured": "true",
     "name": "Nilay Ocak",
@@ -277,10 +265,9 @@
     "shortBio": "15 yılı aşkın kariyerimde Müşteri Deneyimi Tasarımı, Servis Tasarımı ve  Kullanıcı Deneyimi konularında uzmanlaştım. Ağırlıklı olarak finans sektöründe olmak üzere dijital kanal yönetimi ve stratejilerini kurgulamakta deneyimliyim.",
     "bio": " Türkiye’deki kullanıcı deneyimi ve müşteri deneyimi ekosisteminin gelişmesi için ilgili kişi ve kurumlarla da çalışmaktayım. UXPA(User Experience Proffesionals Associate) International ve UXPA Türkiye üyesiyim. İstanbul Müşteri Deneyimi Buluşmaları etkinliklerinin organizasyonunda yer almaktayım aynı zamanda UX İstanbul Konferansı Strateji Komitesindeyim.  İş hedefim deneyimlerimi ve yeteneklerimi müşteri odaklı dijital dönüşüm programlarının başarısı için kullanmak.",
     "tags": [
-      "Bank"
+      "Banka"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -290,7 +277,7 @@
       }
     ]
   },
-    "13":  {
+  "13": {
     "id": 13,
     "featured": "true",
     "name": "Aslı Köksal",
@@ -302,10 +289,9 @@
     "shortBio": "2007’de ODTÜ Matematik Bölümünde lisans eğitimini, 2010 yılında Hochschule Offenburg’da Communication & Media Engineering Bölümünde ise yüksek lisans eğitimini tamamlamıştır. Bilgi güvenliği alanında 5 senedir farklı firmalarda yurtdışı ve yurtiçi kurum ve kuruluşlarda sızma testi uzmanlığı yapmıştır. AKUT Gönüllüsüdür.",
     "bio": " 2007’de ODTÜ Matematik Bölümünde lisans eğitimini, 2010 yılında Hochschule Offenburg’da Communication & Media Engineering Bölümünde ise yüksek lisans eğitimini tamamlamıştır. Bilgi güvenliği alanında 5 senedir farklı firmalarda yurtdışı ve yurtiçi kurum ve kuruluşlarda sızma testi uzmanlığı yapmıştır. AKUT Gönüllüsüdür.",
     "tags": [
-      "Security"
+      "Güvenlik"
     ],
     "badges": [
-
     ],
     "socials": [
       {
@@ -315,7 +301,7 @@
       }
     ]
   },
-    "14":  {
+  "14": {
     "id": 14,
     "featured": "true",
     "name": "Burcu Türkmen",
@@ -345,7 +331,7 @@
       }
     ]
   },
-    "15":  {
+  "15": {
     "id": 15,
     "featured": "true",
     "name": "Tuğba Turkaya",
@@ -357,7 +343,7 @@
     "shortBio": "Ankara Üniversitesi Bilgisayar mühendisliği 2013 yılı mezunuyum. Son sınıfta okumaktan çok sıkıldığım için, yüksek lisans yapmayı hiç düşünmedim, düşünmüyorum. İş kariyerimi JAVA programlama dili üzerine kurup, sıklıkla bu alandaki projelerde, farklı teknolojilerle çalıştım. İki yıldan uzun bir süredir Innovera Bilişim Teknolojileri şirketinde muhteşem bir ekip içerisinde tek kız geliştirici olarak çalışmaktayım.",
     "bio": "Ankara Üniversitesi Bilgisayar mühendisliği 2013 yılı mezunuyum. Son sınıfta okumaktan çok sıkıldığım için, yüksek lisans yapmayı hiç düşünmedim, düşünmüyorum. İş kariyerimi JAVA programlama dili üzerine kurup, sıklıkla bu alandaki projelerde, farklı teknolojilerle çalıştım. İki yıldan uzun bir süredir Innovera Bilişim Teknolojileri şirketinde muhteşem bir ekip içerisinde tek kız geliştirici olarak çalışmaktayım.",
     "tags": [
-      "Security",
+      "Güvenlik",
       "Java"
     ],
     "badges": [
@@ -370,6 +356,4 @@
       }
     ]
   }
-
-
 }
