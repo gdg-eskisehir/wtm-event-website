@@ -17,8 +17,7 @@
 <link rel="import" href="../elements/footer-block.html">
 <link rel="import" href="../behaviors/utils-behavior.html">
 <link rel="import" href="../behaviors/page-behavior.html">
-<link rel="import" href="../behaviors/localize-behavior.html">
-
+<link rel="import" href="../behaviors/cascaded-behavior.html">
 
 <dom-module id="speakers-page">
 
@@ -178,7 +177,7 @@
                data="{{routeData}}"></app-route>
 
     <div class="container speakers-container">
-      <template is="dom-repeat" items="[[_toArray(speakers)]]" as="speaker" on-dom-change="_updateCascadedNodes">
+      <template is="dom-repeat" items="[[_toArray(speakers)]]" as="speaker" on-dom-change="updateCascadedNodes">
         <div class="speaker" cascaded>
           <paper-material class="card">
             <a href$="/speakers/[[speaker.id]]/" class="header">
@@ -188,7 +187,7 @@
               <ul class="badges">
                 <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
                   <li class="badge">
-                    <a href$="[[badge.link]]" target="_blank">[[badge.name]]</a>
+                    <a href$="[[badge.link]]" target="_blank" rel="noopener noreferrer">[[badge.name]]</a>
                     <paper-tooltip>[[badge.description]]</paper-tooltip>
                   </li>
                 </template>
@@ -200,9 +199,9 @@
             </a>
             <a href$="/speakers/[[speaker.id]]/" class="card-content">
               <iron-image class="company-logo" src="{{speaker.companyLogo}}" sizing="contain"></iron-image>
-              <div class="tags">{{localize('skills')}}:
+              <div class="tags">{$ skills $}:
                 <template is="dom-repeat" items="[[speaker.tags]]" as="tag">
-                  <span class="tag" style$="{{_getCustomStyleValue(tag)}}" target="_blank">[[tag]]</span>
+                  <span class="tag" style$="{{_getCustomStyleValue(tag)}}">[[tag]]</span>
                 </template>
               </div>
               <marked-element class="details-text" markdown="[[speaker.shortBio]]">
@@ -211,7 +210,7 @@
             </a>
             <div class="card-actions">
               <template is="dom-repeat" items="[[speaker.socials]]" as="social">
-                <a href="[[social.link]]" target="_blank">
+                <a href="[[social.link]]" target="_blank" rel="noopener noreferrer">
                   <paper-icon-button class="social-icon"
                                      icon$="icons:{{social.icon}}"></paper-icon-button>
                 </a>
@@ -241,12 +240,10 @@
 
         is: 'speakers-page',
 
-
         behaviors: [
-          Polymer.NeonSharedElementAnimatableBehavior,
           HOVERBOARD.PageBehavior,
-          HOVERBOARD.UtilsBehavior,
-          HOVERBOARD.LocalizeBehavior
+          HOVERBOARD.CascadedBehavior,
+          HOVERBOARD.UtilsBehavior
         ],
 
         properties: {
@@ -268,39 +265,22 @@
             type: Object
           },
 
-          _selectedSpeaker: Object,
-
-          animationConfig: {
-            type: Object,
-            value: function () {
-              return {
-                'entry': [{
-                  name: 'fade-in-animation',
-                  animation: 'fade-in-animation',
-                  node: this,
-                  timing: {
-                    delay: 500
-                  }
-                }],
-                'exit': [{
-                  name: 'fade-out-animation',
-                  animation: 'fade-out-animation',
-                  node: this
-                }]
-              };
-            }
-          }
+          _selectedSpeaker: Object
         },
 
         observers: [
-          '_routePageChanged(routeData.speakerId)'
+          '_routePageChanged(routeData.speakerId, speakers)'
         ],
+
+        listeners: {
+          'iron-overlay-closed': '_resetSpeakerIdParam'
+        },
 
         _routePageChanged: function (speakerId) {
           if (speakerId && this.selected) {
             var tempSpeaker = this.speakers[speakerId];
             if (tempSpeaker) {
-              Polymer.RenderStatus.afterNextRender(this, function () {
+              window.requestAnimationFrame(function () {
                 this._selectedSpeaker = tempSpeaker;
                 this.$.speakerDetails.open();
               }.bind(this));
@@ -308,33 +288,17 @@
           }
         },
 
-        _updateCascadedNodes: function () {
-          var cascaded = Polymer.dom(this.root).querySelectorAll('[cascaded]');
-          var cascadedArray = Array.prototype.slice.call(cascaded);
-          this.animationConfig.entry.push({
-            name: 'cascaded-animation',
-            animation: 'transform-animation',
-            transformFrom: 'translate3d(0, 100%, 0)',
-            timing: {
-              delay: 500
-            },
-            nodes: cascadedArray
-          });
-          this.animationConfig.exit.push({
-            name: 'cascaded-animation',
-            animation: 'transform-animation',
-            transformTo: 'translate3d(0, 100%, 0)',
-            nodes: cascadedArray
-          });
-        },
-
         _getCustomStyleValue: function (value) {
           return 'background-color: ' + this.getComputedStyleValue('--' + this._generateClass(value)) || this.getComputedStyleValue('--general');
-        }
+        },
 
+        _resetSpeakerIdParam: function () {
+          this.set('routeData.speakerId', null);
+        }
       });
 
     }());
   </script>
 
 </dom-module>
+

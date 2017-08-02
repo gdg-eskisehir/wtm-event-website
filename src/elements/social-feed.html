@@ -4,7 +4,6 @@
 
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 
-<link rel="import" href="../behaviors/localize-behavior.html">
 <link rel="import" href="social-post.html">
 
 
@@ -53,27 +52,27 @@
 
     <iron-ajax
       auto
-      url="[[app.data.tweetsSource]]"
+      url="{$ tweetsSource $}"
       handle-as="json"
       last-response="{{_posts}}"
     ></iron-ajax>
     <div class="container">
       <div class="social-section">
-        <h4 class="heading">[[localize('before-hashtag')]] <a href$="https://twitter.com/hashtag/[[app.data.hashtag]]?src=hash">#[[app.data.hashtag]]</a></h4>
+        <h4 class="heading">{$ beforeHashtag $} <a href="https://www.google.com/#q=%23{$ hashtag $}">#{$ hashtag $}</a></h4>
         <h5>[[response.response]]</h5>
         <social-post id="post" author="[[author]]" text="[[text]]" when="[[when]]" canonical-url="https://twitter.com/"
                      sign="@"></social-post>
       </div>
       <span class="divider"></span>
       <div class="social-section">
-        <h4 class="heading">[[localize('social-title')]]</h4>
-        <div>[[localize('social-motto')]]</div>
+        <h4 class="heading">{$ socialTitle $}</h4>
+        <div>{$ socialMotto $}</div>
         <div class="align-pb-block">
-          <template is="dom-repeat" items="[[app.data.social]]" as="network">
-            <a class="button-link" href$="[[network.url]]" target="_blank">
-              <paper-icon-button icon="[[network.name]]"></paper-icon-button>
-            </a>
-          </template>
+          {% for network in social %}
+          <a class="button-link" href="{$ network.url $}" target="_blank" rel="noopener noreferrer">
+            <paper-icon-button icon="{$ network.name $}"></paper-icon-button>
+          </a>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -87,10 +86,6 @@
       Polymer({
 
         is: 'social-feed',
-
-        behaviors: [
-          HOVERBOARD.LocalizeBehavior
-        ],
 
         properties: {
           interval: {
@@ -113,8 +108,8 @@
           var index = this._selected;
           if (this._posts) {
             this._selected = (++index % this._posts.length);
-            this.author = this._posts[this._selected].username;
-            this.when = this._posts[this._selected].date;
+            this.author = this._posts[this._selected].user.screen_name;
+            this.when = this._posts[this._selected].created_at;
             this.text = this._linkifyPost(this._posts[this._selected].text);
 
             this.async(this._postsChanged, this.interval);
@@ -124,13 +119,13 @@
         _linkifyPost: function (value) {
           var replacedText, links1, links2, hashtags, profileLinks;
           links1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-          replacedText = value.replace(links1, '<a class="post-link" href="$1" target="_blank">$1</a>');
+          replacedText = value.replace(links1, '<a class="post-link" href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
           links2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-          replacedText = replacedText.replace(links2, '$1<a class="post-link" href="http://$2" target="_blank">$2</a>');
+          replacedText = replacedText.replace(links2, '$1<a class="post-link" href="http://$2" target="_blank" rel="noopener noreferrer">$2</a>');
           hashtags = /#(\S*)/g;
-          replacedText = replacedText.replace(hashtags, '<a class="post-link" href="https://twitter.com/search?q=%23$1" target="_blank">#$1</a>');
+          replacedText = replacedText.replace(hashtags, '<a class="post-link" href="https://twitter.com/search?q=%23$1" target="_blank" rel="noopener noreferrer">#$1</a>');
           profileLinks = /\B@([\w-]+)/gm;
-          replacedText = replacedText.replace(profileLinks, '<a class="post-link" href="https://twitter.com/$1" target="_blank">@$1</a>');
+          replacedText = replacedText.replace(profileLinks, '<a class="post-link" href="https://twitter.com/$1" target="_blank" rel="noopener noreferrer">@$1</a>');
           return replacedText;
         }
 

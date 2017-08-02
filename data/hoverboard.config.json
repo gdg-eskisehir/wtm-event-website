@@ -1,151 +1,109 @@
 {
-  "pages": {
-    "home": {
-      "headerSettings": {
-        "backgroundColor": "#FF9800",
-        "backgroundImage": "/images/backgrounds/home.png",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff",
-        "hideLogo": true,
-        "minHeight": "360px"
-      }
-    },
-    "speakers": {
-      "headerSettings": {
-        "backgroundColor": "#3f51b5",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "schedule": {
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "cod": {
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    }
+  "url": "https://hoverboard.firebaseapp.com/",
+  "startDate": "2016-09-09T09:00:00+03:00",
+  "endDate": "2016-09-10T19:00:00+03:00",
+  "analytics": {
+    "prod": "UA-43643469-8",
+    "dev": "UA-43643469-9"
   },
+  "organizer": {
+    "name": "GDG Lviv",
+    "twitter": "gdglviv"
+  },
+  "webapp": {
+    "shortName": "DevFest",
+    "themeColor": "#F57C00",
+    "backgroundColor": "#F57C00"
+  },
+  "firebase": {
+    "name": "hoverboard-experimental",
+    "domain": "hoverboard-experimental.firebaseapp.com",
+    "database": "https://hoverboard-experimental.firebaseio.com",
+    "api": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
+    "userSessionsPath": "/userSessions",
+    "ratingsPath": "/ratings",
+    "indexedDbSession": "hoverboard"
+  },
+  "mailchimp": {
+    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
+  },
+  "dateFormat": {
+    "locale": "en-US",
+    "blog": {"month": "short", "day": "numeric", "year": "numeric"}
+  },
+  "hashtag": "dfua",
+  "disqusShortName": "hoverboard-gdg-x",
+  "tweetsSource": "/data/tweets.json",
+  "partnershipProposition": "http://bit.ly/df16-sponsor",
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "enableSessionsRating": true,
   "navigation": [
     {
       "route": "home",
       "permalink": "/"
     },
     {
-      "route": "speakers",
-      "permalink": "/speakers/"
-    },{
+      "route": "blog",
+      "permalink": "/blog/"
+    },
+    {
       "route": "schedule",
       "permalink": "/schedule/"
-    }
-  ],
-  "url": "df16.gdgeskisehir.com",
-  "partnershipProposition": "http://goo.gl/FDSxAf",
-  "languages": [
-    {
-      "name": "Türkçe",
-      "key": "tr"
-    }
-  ],
-  "footerBlocks": [
-    {
-      "title": "for-visitors",
-      "links": [
-        {
-          "text": "cod",
-          "url": "/cod/"
-        },
-        {
-          "text": "google-developers",
-          "url": "https://developers.google.com/",
-          "newTab": true
-        }
-      ]
     },
     {
-      "title": "for-partners",
-      "links": [
-        {
-          "text": "partnership-proposition",
-          "url": "https://goo.gl/gjJC8Q",
-          "newTab": true
-        },
-        {
-          "text": "media-kit",
-          "url": "https://drive.google.com/drive/folders/0B71tUXJniTzMVUM4c25lUjVua2c?usp=sharing",
-          "newTab": true
-        }
-      ]
+      "route": "speakers",
+      "permalink": "/speakers/"
+    },
+    {
+      "route": "team",
+      "permalink": "/team/"
     }
   ],
-  "contactBlock": {
-    "links": [
-      {
-        "text": "gdgeskisehir@gmail.com",
-        "url": "mailto:gdgeskisehir@gmail.com"
-      }
-    ]
-  },
-  "tickets": {
-    "url": "http://goo.gl/6dh0lQ",
-    "elements": [
-      {
-        "name": "student-ticket",
-        "currency": "Ücretsiz",
-        "starts": "student-ticket-starts",
-        "ends": "student-ticket-ends",
-        "info": "student-ticket-info",
-        "soldOut": false
-      }
-    ]
-  },
-  "teamPageTitle": "team-page-title",
-  "teamPageText": "team-page-text",
-  "statistics": [
-    {
-      "counter": 400,
-      "caption": "attendees"
-    },
-    {
-      "counter": 1,
-      "caption": "days"
-    },
-    {
-      "counter": 15,
-      "caption": "sessions"
-    },
-    {
-      "counter": 2,
-      "caption": "tracks"
-    }
-  ],
-  "hashtag": "dfesk",
   "social": [
     {
       "name": "twitter",
-      "nickname": "GDG Eskişehir",
-      "url": "https://twitter.com/gdgeskisehir"
+      "nickname": "GDGLviv",
+      "url": "https://twitter.com/gdglviv"
     },
     {
       "name": "gplus",
-      "nickname": "115602346615910585045",
-      "url": "https://plus.google.com/115602346615910585045"
+      "nickname": "102444623953913144164",
+      "url": "https://plus.google.com/102444623953913144164"
     },
     {
       "name": "facebook",
-      "nickname": "GDG Eskişehir",
-      "url": "https://www.facebook.com/gdgeskisehir"
+      "nickname": "GDGLviv",
+      "url": "https://www.facebook.com/GDGLviv"
+    },
+    {
+      "name": "linkedin",
+      "nickname": "google-developers-group-lviv",
+      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
     }
   ],
-  "tweetsSource":"https://df16-af009.firebaseio.com/tweets.json",
+  "location": {
+    "apiKey": "",
+    "name": "Pivdennyi Expo Center",
+    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "link": "https://www.facebook.com/expopivdennij",
+    "pointer": {
+      "latitude": 49.809841,
+      "longitude": 23.972805,
+      "zoom": 15
+    },
+    "mapCenter": {
+      "latitude": 49.809841,
+      "longitude": 23.982805
+    },
+    "images": [
+      "/images/backgrounds/location_1.jpg",
+      "/images/backgrounds/location_2.jpg",
+      "/images/backgrounds/location_3.jpg"
+    ]
+  },
   "gallery": {
-    "albumUrl": "https://plus.google.com/photos/115602346615910585045/albums/6095589954824832113",
+    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
     "photos": {
       "big": "/images/backgrounds/2015_1.jpg",
       "small": [
@@ -154,22 +112,62 @@
       ]
     }
   },
-  "location": {
-    "apiKey": "AIzaSyCOhdvcHnI6kWgIxenpskcElIPgqjjdXzE",
-    "link": "https://www.anadolu.edu.tr/kampuste-yasam/kultur-sanat-merkezleri-ve-salonlari/ogrenci-merkezi",
-    "pointer": {
-      "latitude": 39.792864,
-      "longitude": 30.500162,
-      "zoom": 20
+  "pages": {
+    "home": {
+      "title": "Home",
+      "headerSettings": {
+        "backgroundColor": "#FF9800",
+        "backgroundImage": "/images/backgrounds/home.png",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff",
+        "video": {
+          "title": "GDG DevFest Ukraine 2016",
+          "youtubeId": "TdpbgRgz6eE",
+          "text": "See how it was in 2016"
+        },
+        "hideLogo": true,
+        "minHeight": "360px"
+      }
     },
-    "mapCenter": {
-      "latitude": 39.792864,
-      "longitude": 30.500162
+    "blog": {
+      "title": "Blog",
+      "headerSettings": {
+        "backgroundColor": "#03a9f4",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
     },
-    "images": [
-      "/images/backgrounds/location_1.jpg ",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
-    ]
+    "speakers": {
+      "title": "Speakers",
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "schedule": {
+      "title": "Schedule",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "team": {
+      "title": "Team",
+      "headerSettings": {
+        "backgroundColor": "#009688",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "cod": {
+      "title": "Cod of Conduct",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    }
   }
 }
