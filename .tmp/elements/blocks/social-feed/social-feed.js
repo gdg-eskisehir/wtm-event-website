@@ -40,7 +40,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this._selected = ++index % this._posts.length;
 
           /* jshint ignore:start */
-          this.author = this._posts[this._selected].user.screen_name;
+          this.author = this._posts[this._selected].user.username;
           this.when = this._posts[this._selected].created_at;
           /* jshint ignore:end */
           this.text = this._linkifyPost(this._posts[this._selected].text);

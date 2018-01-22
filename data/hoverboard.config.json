@@ -1,14 +1,14 @@
 {
-  "url": "https://hoverboard.firebaseapp.com/",
-  "startDate": "2016-09-09T09:00:00+03:00",
-  "endDate": "2016-09-10T19:00:00+03:00",
+  "url": "df17.gdgeskisehir.com",
+  "startDate": "2017-09-07T09:00:00+03:00",
+  "endDate": "2017-09-07T18:00:00+03:00",
   "analytics": {
     "prod": "UA-43643469-8",
     "dev": "UA-43643469-9"
   },
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv"
+    "name": "GDG Eskisehir",
+    "twitter": "GdgEskisehir"
   },
   "webapp": {
     "shortName": "DevFest",
@@ -16,27 +16,25 @@
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "hoverboard-experimental",
-    "domain": "hoverboard-experimental.firebaseapp.com",
-    "database": "https://hoverboard-experimental.firebaseio.com",
-    "api": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
+    "name": "df17",
+    "domain": "df17-f2298.firebaseapp.com/",
+    "database": "https://df17-f2298.firebaseio.com/",
+    "api": "AIzaSyCPTb88VKpvGge_lMs5qeZIBd3qLUlyefA",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
   },
   "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
-    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
+    "url": "",
+    "name": ""
   },
   "dateFormat": {
     "locale": "en-US",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
-  "hashtag": "dfua",
-  "disqusShortName": "hoverboard-gdg-x",
-  "tweetsSource": "/data/tweets.json",
-  "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "hashtag": "dfesk",
+  "tweetsSource": "https://df17-f2298.firebaseio.com/tweets.json",
+  "partnershipProposition": "https://docs.google.com/document/d/1TlG05RkRFt2rIor9EGNiylHfnjytjR1U_H0QL8Bdl3o/edit?usp=sharing",
   "enableSessionsRating": true,
   "navigation": [
     {
@@ -44,57 +42,39 @@
       "permalink": "/"
     },
     {
-      "route": "blog",
-      "permalink": "/blog/"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/"
-    },
-    {
       "route": "speakers",
       "permalink": "/speakers/"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/"
     }
   ],
   "social": [
     {
       "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "nickname": "GdgEskisehir",
+      "url": "https://twitter.com/GdgEskisehir"
     },
     {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
+      "nickname": "GDGEskisehirOrg",
+      "url": "https://plus.google.com/115602346615910585045"
     },
     {
       "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
-    },
-    {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "nickname": "GDG Eskişehir",
+      "url": "https://www.facebook.com/GdgEskisehir/"
     }
   ],
   "location": {
-    "apiKey": "",
-    "name": "Pivdennyi Expo Center",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
-    "link": "https://www.facebook.com/expopivdennij",
+    "apiKey": "AIzaSyCG1kH8Q2WOz2sHGrHNYqW138jn82pbPYg",
+    "name": "Anadolu Ünivetsitesi Öğrenci Merkezi",
+    "address": "Yunus Emre Kampüsü, Anadolu Üniversitesi, Eskişehir, Türkiye",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 39.792805,
+      "longitude": 30.5002998,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": 39.792805,
+      "longitude":30.5002998
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
@@ -103,7 +83,7 @@
     ]
   },
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl":"https://photos.google.com/share/AF1QipPBryJZd91vXyvABKgc3v7NDzVgzQyuGU980ynlBUwToyqL-mkURpmi7lRri-JoJA?key=SzdRT1JLRDB3bjN6eUZQZXZwU1dPZUxmSkpUaWVB",
     "photos": {
       "big": "/images/backgrounds/2015_1.jpg",
       "small": [
@@ -114,60 +94,24 @@
   },
   "pages": {
     "home": {
-      "title": "Home",
+      "title": "Anasayfa",
       "headerSettings": {
         "backgroundColor": "#FF9800",
         "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
-        "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "TdpbgRgz6eE",
-          "text": "See how it was in 2016"
-        },
         "hideLogo": true,
         "minHeight": "360px"
       }
     },
-    "blog": {
-      "title": "Blog",
-      "headerSettings": {
-        "backgroundColor": "#03a9f4",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
     "speakers": {
-      "title": "Speakers",
+      "title": "Konuşmacılar",
       "headerSettings": {
         "backgroundColor": "#3f51b5",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
-    },
-    "schedule": {
-      "title": "Schedule",
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "team": {
-      "title": "Team",
-      "headerSettings": {
-        "backgroundColor": "#009688",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "cod": {
-      "title": "Cod of Conduct",
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    }
+
   }
+}
 }

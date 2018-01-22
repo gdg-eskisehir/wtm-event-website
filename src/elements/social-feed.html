@@ -60,8 +60,7 @@
       <div class="social-section">
         <h4 class="heading">{$ beforeHashtag $} <a href="https://www.google.com/#q=%23{$ hashtag $}">#{$ hashtag $}</a></h4>
         <h5>[[response.response]]</h5>
-        <social-post id="post" author="[[author]]" text="[[text]]" when="[[when]]" canonical-url="https://twitter.com/"
-                     sign="@"></social-post>
+        <social-post id="post" author="[[author]]" text="[[text]]" when="[[when]]" canonical-url="https://twitter.com/" sign=""></social-post>
       </div>
       <span class="divider"></span>
       <div class="social-section">
@@ -108,7 +107,7 @@
           var index = this._selected;
           if (this._posts) {
             this._selected = (++index % this._posts.length);
-            this.author = this._posts[this._selected].user.screen_name;
+            this.author = this._posts[this._selected].username;
             this.when = this._posts[this._selected].created_at;
             this.text = this._linkifyPost(this._posts[this._selected].text);
 

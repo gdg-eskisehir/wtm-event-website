@@ -1,72 +1,65 @@
-{
-  "title": "GDG DevFest Season 2016",
-  "description": "The biggest Google tech conference in Ukraine carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
+{"title": "GDG DevFest Eskişehir 2017",
+  "description": "Eskişehir'deki en büyük geliştirici etkinliği!",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "September 9-10, 2016",
-  "locationAddressShort": "Lviv, Ukraine",
+  "dates": "7 Ekim  2017",
+  "locationAddressShort": "Eskişehir, Türkiye",
   "motto": "Be a GDG. Be a Hero!",
-  "playIcon": "See how it was in 2015",
-  "c4p": "Become a speaker",
-  "buyTicket": "Buy ticket",
-  "backToTop": "Back to top",
-  "subscribe": "Subscribe",
-  "yourEmail": "Your email",
-  "subscribeNote": "No spam, only the latest news and updates!",
-  "contactUs": "Contact us",
-  "ticketsTitle": "Tickets",
-  "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
-  "close": "Close",
-  "soldOutTickets": "Sold Out",
-  "socialTitle": "Social",
-  "socialMotto": "Add to circles, like, follow or connect with us on",
-  "beforeHashtag": "What's up",
-  "clickToViewPhotos": "Click here to view more photos",
-  "partners": "Partners",
-  "becomePartner": "Become a partner",
-  "featuredVideosTitle": "Featured #DFUA '15 Sessions",
-  "featuredVideosViewAll": "View all videos",
-  "featuredPeopleTitle": "Rockstar Speakers",
-  "featuredPeopleViewAll": "View all speakers",
-  "action": "See how it was",
-  "locationTitle": "Pivdennyi Expo Center",
-  "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
-  "locationAddress": "Shchyretska St, 36",
-  "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
-  "openTeamPage": "Open team page",
-  "whatIsGdg": "What is GDG?",
-  "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
-  "readMore": "Read more",
-  "copyLink": "Copy link",
-  "filteredBy": "filtered by",
-  "clearAll": "Clear all",
-  "filter": "Filter",
-  "latestNews": "Latest news",
-  "continueReading": "Continue reading",
-  "viewPresentation": "View presentation",
-  "viewVideo": "View video",
-  "skills": "Skills",
-  "share": "Share",
-  "shareWith": "Share with",
-  "signIn": "Sign in",
-  "signOut": "Sign out",
-  "mySchedule": "My Schedule",
-  "browseMore": "Browse more events",
-  "youShouldSignInSessions": "Sign in to save sessions",
-  "youShouldSignInRating": "Sign in to rate sessions",
-  "offlineMessage": "You are offline",
-  "removedFromSchedule": "Removed from My Schedule",
-  "addedToSchedule": "Added to My Schedule",
-  "rateSession": "Rate session",
+  "playIcon": "2015 nasıldı?",
+  "c4p": "Konuşmacı Ol",
+  "buyTicket": "Bilet Edinin",
+  "backToTop": "Üste Çık",
+  "subscribe": "Takip Et",
+  "yourEmail": "Mail Adresiniz",
+  "subscribeNote": "Spam yok sadece gelişmeler!",
+  "contactUs": "İletişim",
+  "ticketsTitle": "Biletler",
+  "ticketsDetails": "Etkinliğe katılım tamamen ücretsizdir.",
+  "close": "Kapalı",
+  "soldOutTickets": "Tükendi",
+  "socialTitle": "Sosyal",
+  "socialMotto": "Sosyal medya hesaplarımızdan bizi çevrelerinize ekleyebilir, takip edebilir ve beğenebilirsiniz.",
+  "beforeHashtag": "Neler Oluyor",
+  "clickToViewPhotos": "Daha fazla fotoğraf için tıklayın",
+  "partners": "Sponsorlar",
+  "becomePartner": "Sponsor Olun",
+  "featuredVideosTitle": "DevFest Student'16'da neler oldu?",
+  "featuredVideosViewAll": "Tüm videoları göster",
+  "featuredPeopleTitle": "Rockstar Konuşmacılar",
+  "featuredPeopleViewAll": "Tüm Konuşmacıları Gör",
+  "action": "Nasıl geçmişti?",
+  "locationTitle": "Anadolu Ünivetsitesi Öğrenci Merkezi",
+  "locationDescription":"Anadolu Üniversitesi Yunus Emre Kampüsü'nde",
+  "locationAddress": "Yunus Emre Kampüsü, Anadolu Üniversitesi, Eskişehir, Türkiye",
+  "organizerTitle": "Organizatörler",
+  "aboutOrganizers": "DevFest Eskişehir 2017 <a href='http://gdgeskisehir.com' target='_blank'>GDG Eskişehir</a> ve tüm dünyadan birçok GDG ile birlikte organize ediliyor!",
+  "whatIsGdg": "GDG Nedir?",
+  "aboutGdg": "Google Developers Group (GDG) - herkese açık, gönüllü, yeni teknolojilerle uğraşmayı, Google teknolojileriyle ilgili deneyimlerini paylaşmayı seven bir geek topluluğudur.",
+  "readMore": "Daha fazla",
+  "copyLink": "Link'i Kopyala",
+  "filteredBy": "ile filtrele",
+  "clearAll": "Hepsini temizle",
+  "filter": "Filtreler",
+  "latestNews": "En Son Haberler",
+  "continueReading": "Okumaya devam et",
+  "viewPresentation": "Sunumları Gör",
+  "viewVideo": "Videoyu gör",
+  "skills": "Yetenekler",
+  "share": "Paylaş",
+  "shareWith": "İle Paylaş",
+  "signIn": "Giriş yap",
+  "signOut": "Oturumu kapat",
+  "mySchedule": "Ajandam",
+  "browseMore": "Daha fazla etkinlik takip et",
+  "youShouldSignInSessions": "Oturuma Kayıt Yap",
+  "youShouldSignInRating": "Oturuma Oy ver",
+  "offlineMessage": "Çevirimdışısınız",
+  "removedFromSchedule": "Ajandamdan Sil",
+  "addedToSchedule": "Ajandaya Eklendi",
+  "rateSession": "Oturumu Oyla",
   "footerBlocks": [
     {
-      "title": "For visitors",
+      "title": "Ziyaretciler İçin",
       "links": [
-        {
-          "text": "Team",
-          "url": "/team/",
-          "newTab": false
-        },
         {
           "text": "Code of Conduct",
           "url": "/cod/",
@@ -78,68 +71,45 @@
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
+          "text": "GDG DevFest Eskisehir 2016",
+          "url": "https://df16.gdgeskisehir.com/",
           "newTab": true
         }
       ]
     },
     {
-      "title": "For Partners",
+      "title": "Sponsorlar İçin",
       "links": [
         {
-          "text": "Partnership Proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
+          "text": "Sponsorluk Dosyası",
+          "url": "https://docs.google.com/document/d/1TlG05RkRFt2rIor9EGNiylHfnjytjR1U_H0QL8Bdl3o/edit?usp=sharing",
           "newTab": true
         }
       ]
     }
   ],
-  "contactBlock": {
-    "links": [
-      {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
-      }
-    ]
-  },
   "teamPageTitle": "Team",
-  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
+  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Eskisehir](http://gdgeskisehir.com/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
   "statistics": [
     {
       "counter": 600,
-      "caption": "Attendees"
+      "caption": "Katılımcı"
+    },
+    {
+      "counter": 1,
+      "caption": "Gün"
+    },
+    {
+      "counter": 14,
+      "caption": "Oturum"
     },
     {
       "counter": 2,
-      "caption": "Days"
-    },
-    {
-      "counter": 30,
-      "caption": "Sessions"
-    },
-    {
-      "counter": 3,
-      "caption": "Tracks"
+      "caption": "Salon"
     }
   ],
   "callToAction": {
-    "videoTitle": "GDG DevFest 2015",
+    "videoTitle": "GDG DevFest 2016",
     "videoId": "DfMnJAzOFng"
   }
 }
