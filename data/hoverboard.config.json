@@ -1,25 +1,25 @@
 {
-  "url": "df17.gdgeskisehir.com",
-  "startDate": "2017-09-07T09:00:00+03:00",
-  "endDate": "2017-09-07T18:00:00+03:00",
+  "url": "wtmeskisehir.org",
+  "startDate": "2018-03-24T09:00:00+03:00",
+  "endDate": "2018-03-24T18:00:00+03:00",
   "analytics": {
     "prod": "UA-43643469-8",
     "dev": "UA-43643469-9"
   },
   "organizer": {
-    "name": "GDG Eskisehir",
-    "twitter": "GdgEskisehir"
+    "name": "WTM Eskisehir",
+    "twitter": "wtmesk"
   },
   "webapp": {
-    "shortName": "DevFest",
-    "themeColor": "#F57C00",
-    "backgroundColor": "#F57C00"
+    "shortName": "WTMESK",
+    "themeColor": "#1ec0a6",
+    "backgroundColor": "#1ec0a6"
   },
   "firebase": {
-    "name": "df17",
-    "domain": "df17-f2298.firebaseapp.com/",
-    "database": "https://df17-f2298.firebaseio.com/",
-    "api": "AIzaSyCPTb88VKpvGge_lMs5qeZIBd3qLUlyefA",
+    "name": "wtm18",
+    "domain": "wtm18-7ab96.firebaseapp.com/",
+    "database": "https://wtm18-7ab96.firebaseio.com/",
+    "api": "AIzaSyB6BBN-uhaYrOjV-sNGCWXv8vOFl9CkPus",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
@@ -32,9 +32,9 @@
     "locale": "en-US",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
-  "hashtag": "dfesk",
+  "hashtag": "wtmesk",
   "tweetsSource": "https://df17-f2298.firebaseio.com/tweets.json",
-  "partnershipProposition": "https://docs.google.com/document/d/1TlG05RkRFt2rIor9EGNiylHfnjytjR1U_H0QL8Bdl3o/edit?usp=sharing",
+  "partnershipProposition": "https://drive.google.com/file/d/1KO-TU40wrf2s1pRwiIt2XeOJ0_-Nv9MI/view?usp=sharingF",
   "enableSessionsRating": true,
   "navigation": [
     {
@@ -49,18 +49,13 @@
   "social": [
     {
       "name": "twitter",
-      "nickname": "GdgEskisehir",
-      "url": "https://twitter.com/GdgEskisehir"
-    },
-    {
-      "name": "gplus",
-      "nickname": "GDGEskisehirOrg",
-      "url": "https://plus.google.com/115602346615910585045"
+      "nickname": "wtmesk",
+      "url": "https://twitter.com/wtmesk"
     },
     {
       "name": "facebook",
-      "nickname": "GDG Eskişehir",
-      "url": "https://www.facebook.com/GdgEskisehir/"
+      "nickname": "Women Techmakers Eskisehir",
+      "url": "https://www.facebook.com/WomenTechmakersEskisehir"
     }
   ],
   "location": {
@@ -83,7 +78,7 @@
     ]
   },
   "gallery": {
-    "albumUrl":"https://photos.google.com/share/AF1QipPBryJZd91vXyvABKgc3v7NDzVgzQyuGU980ynlBUwToyqL-mkURpmi7lRri-JoJA?key=SzdRT1JLRDB3bjN6eUZQZXZwU1dPZUxmSkpUaWVB",
+    "albumUrl":"https://goo.gl/photos/5JXECPbDxxxX3JXi6",
     "photos": {
       "big": "/images/backgrounds/2015_1.jpg",
       "small": [
@@ -96,7 +91,7 @@
     "home": {
       "title": "Anasayfa",
       "headerSettings": {
-        "backgroundColor": "#FF9800",
+        "backgroundColor": "#03A9F4",
         "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff",

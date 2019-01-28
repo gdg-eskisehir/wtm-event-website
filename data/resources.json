@@ -1,10 +1,10 @@
-{"title": "GDG DevFest Eskişehir 2017",
+{"title": "Women Techmakers Eskisehir'18",
   "description": "Eskişehir'deki en büyük geliştirici etkinliği!",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "7 Ekim  2017",
+  "dates": "24 Mart 2018",
   "locationAddressShort": "Eskişehir, Türkiye",
-  "motto": "Be a GDG. Be a Hero!",
-  "playIcon": "2015 nasıldı?",
+  "motto": "Building a New Horizon",
+  "playIcon": "2016 nasıldı?",
   "c4p": "Konuşmacı Ol",
   "buyTicket": "Bilet Edinin",
   "backToTop": "Üste Çık",
@@ -23,7 +23,7 @@
   "partners": "Sponsorlar",
   "becomePartner": "Sponsor Olun",
   "featuredVideosTitle": "DevFest Student'16'da neler oldu?",
-  "featuredVideosViewAll": "Tüm videoları göster",
+  "featuredVideosViewAll": "Tüm vifdeoları göster",
   "featuredPeopleTitle": "Rockstar Konuşmacılar",
   "featuredPeopleViewAll": "Tüm Konuşmacıları Gör",
   "action": "Nasıl geçmişti?",
@@ -31,9 +31,9 @@
   "locationDescription":"Anadolu Üniversitesi Yunus Emre Kampüsü'nde",
   "locationAddress": "Yunus Emre Kampüsü, Anadolu Üniversitesi, Eskişehir, Türkiye",
   "organizerTitle": "Organizatörler",
-  "aboutOrganizers": "DevFest Eskişehir 2017 <a href='http://gdgeskisehir.com' target='_blank'>GDG Eskişehir</a> ve tüm dünyadan birçok GDG ile birlikte organize ediliyor!",
-  "whatIsGdg": "GDG Nedir?",
-  "aboutGdg": "Google Developers Group (GDG) - herkese açık, gönüllü, yeni teknolojilerle uğraşmayı, Google teknolojileriyle ilgili deneyimlerini paylaşmayı seven bir geek topluluğudur.",
+  "aboutOrganizers": "Women Techmakers Eskisehir <a href='http://wtmeskisehir.org' target='_blank'>WTM Eskişehir</a> ve tüm dünyadan birçok WTM ile birlikte organize ediliyor!",
+  "whatIsGdg": "WTM Nedir?",
+  "aboutGdg": "Women Techmakers (WTM) daha fazla kadının bilim, teknoloji, mühendislik ve benzeri sektörlerde yer almasını teşvik etmek amacıyla etkinlikler düzenleyen ve Google tarafından desteklenen uluslararası bir topluluktur.",
   "readMore": "Daha fazla",
   "copyLink": "Link'i Kopyala",
   "filteredBy": "ile filtrele",
@@ -71,8 +71,8 @@
           "newTab": true
         },
         {
-          "text": "GDG DevFest Eskisehir 2016",
-          "url": "https://df16.gdgeskisehir.com/",
+          "text": "GDG DevFest Eskisehir 2017",
+          "url": "https://df17.gdgeskisehir.com/",
           "newTab": true
         }
       ]
@@ -82,7 +82,7 @@
       "links": [
         {
           "text": "Sponsorluk Dosyası",
-          "url": "https://docs.google.com/document/d/1TlG05RkRFt2rIor9EGNiylHfnjytjR1U_H0QL8Bdl3o/edit?usp=sharing",
+          "url": "https://drive.google.com/file/d/1KO-TU40wrf2s1pRwiIt2XeOJ0_-Nv9MI/view?usp=sharing",
           "newTab": true
         }
       ]
